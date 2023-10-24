@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+  <title>Latihan FanBook</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,700&display=swap" rel="stylesheet">
+
+    <style>
+         * {
+            font-family: 'Roboto', sans-serif;
+        }
+
+       .mypic {
+            width: 100%;
+            height: 300px;
+            background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+            url(https://i.pinimg.com/236x/79/b7/ca/79b7ca51bad1116d664a96820d228201.jpg);
+            background-position: center;
+            background-size: cover;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;   
+       }
+
+        .mypost {
+            width: 95%;
+            max-width: 500px;
+            margin: 20px auto 20px auto;
+            padding: 20px;
+            box-shadow: 0px 0px 3px 0px black;
+        }
+
+        .mybtns {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            margin-top: 10px;
+        }
+
+        .mypost > button {
+           margin-top: 15px; 
+        }
+
+        .mycards {
+            width: 95%;
+            max-width: 500px;
+            margin: auto;
+        }
+
+        .mycards > .card {
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="mypic">
+        <h1>Taylor Swift FanBook</h1>
+    </div>
+
+    <div class="mypost">
+        <div class="form-floating mb-3">
+            <input type="Text" class="form-control" id="floatingInput" placeholder="Enter your Nickname Here">
+            <label for="floatingInput">Nickname</label>
+        </div>
+        <div class="form-floating">
+            <textarea class="form-control" placeholder="Enter your Message here" id="floatingTextarea2" style="height: 100px"></textarea>
+            <label for="floatingTextarea2">Fan Message</label>
+        </div>
+        <div class="mybtns">
+            <button onclick="hey()" type="button" class="btn btn-dark">Leave Fan Message</button>
+        </div>
+    </div>
+
+    <div class="mycards">
+        <div class="card">
+            <div class="card-body">
+              <blockquote class="blockquote mb-0">
+                <p>Best Pop Solo Performance' di Grammy tahun 2015.</p>
+                <footer class="blockquote-footer">1989 · 2014 <cite title="Source Title">Shake it Off.</cite></footer>
+              </blockquote>
+            </div>
+        </div> 
+        <div class="card">
+            <div class="card-body">
+              <blockquote class="blockquote mb-0">
+                <p>Choice Love Song' di Teen Choice Awards.</p>
+                <footer class="blockquote-footer">Speak Now . 2010 <cite title="Source Title">Mine</cite></footer>
+              </blockquote>
+            </div>
+        </div> 
+        <div class="card">
+            <div class="card-body">
+              <blockquote class="blockquote mb-0">
+                <p>Best Female Video' di MTV Video Music Awards pada tahun 2009.</p>
+                <footer class="blockquote-footer">Taylor Swift Tribute Album: Great <cite title="Source Title">You Belong With Me</cite></footer>
+              </blockquote>
+            </div>
+        </div> 
+        <div class="card">
+            <div class="card-body">
+              <blockquote class="blockquote mb-0">
+                <p>boys only want love if it's torture.</p>
+                <footer class="blockquote-footer">1989 . 2014 <cite title="Source Title">Black Space.</cite></footer>
+              </blockquote>
+            </div>
+        </div> 
+    </div>
+</body>
+
+</html>
